@@ -24,7 +24,7 @@ public class MarqueeExampleActivity extends Activity {
 	TextView marqueeText2 = (TextView) findViewById(R.id.marquee_text_2);
 	marqueeText2.setSelected(true);
 
-	// this one is not selected; it is not automatically marquee
+	// this one is not selected; it will not automatically marquee
 	TextView marqueeText3 = (TextView) findViewById(R.id.marquee_text_3);
 	// marqueeText3.setSelected(true);
 
